@@ -17,6 +17,8 @@
     <div id="app">
         <buygame></buygame>
 <div> add this to edit</div>
+        <div> add this to edit 2</div>
+
         <!--<div class="container-fluid p-3">
             <h2>Buy A Game</h2>
             <div class="row">
