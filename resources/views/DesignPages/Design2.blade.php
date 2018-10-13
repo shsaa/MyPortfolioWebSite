@@ -118,7 +118,7 @@
                     "data-target": "#myScrollspy",
                 });
 
-                TheNumberOfItemsInScrollSpy(6);
+                TheNumberOfItemsInScrollSpy(8);
 
                 function TheNumberOfItemsInScrollSpy(NumberOfTimes) {
                     for (let i = 1; i <= NumberOfTimes; i++) {
@@ -142,12 +142,12 @@
                 function InjectScrollSpyContent(ItemSequence) {
                     return '                <div id="section' + ItemSequence + '">\n' +
                         '                    <div class="card text-center">\n' +
-                        '                        <div class="card-header" style="background-color: #C8E6C9">\n' +
                         '                            <a class="card-link" data-toggle="collapse" href="#collapse' + ItemSequence + '">\n' +
+                        '                        <div class="card-header" style="background-color: #C8E6C9">\n' +
                         '                                Collapsible Group Item #' + ItemSequence + '' +
                         '                                <span class="badge badge-secondary">New</span>\n' +
-                        '                            </a>\n' +
-                        '                        </div>\n' +
+                        '                            </div>\n' +
+                        '                        </a>\n' +
                         '                        <div id="collapse' + ItemSequence + '" class="collapse">\n' +
                         '                            <div class="card-body">\n' +
                         '                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor\n' +

@@ -6,28 +6,31 @@
 
 @section('head')
     <style>
-        #HoverTheCard:hover {
+        .HoverTheCard:hover {
             border-color: darkblue;
             border-style: solid;
             border-width: 1px;
         }
 
+        .HoverTheCard{
+            max-width: 350px
+        }
     </style>
 @endsection
 
 @section('content')
 
     <div class="jumbotron text-center" style="background: #6cb2eb">
-        <h1 class="display-4">My Site</h1>
-        <p class="lead">This is another built by me, more organized, to present my skills.</p>
+        <h1 class="display-4">My Portfolio Site</h1>
+        <p class="lead">This is a site built by me, organized, to present my skills and capabilities.</p>
         <hr class="my-4">
-        <p>It is divided into three categories as shown below</p>
+        <p>It is divided into two categories as shown below , and many more to come.</p>
     </div>
 
 
     <div class="container">
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 shadow-sm" id="HoverTheCard">
+        <div class="card-deck mb-3 text-center justify-content-center">
+            <div class="card mb-4 shadow-sm HoverTheCard">
                 <div class="card-header bg-info text-white">
                     <h4 class="my-0 font-weight-normal">Designs</h4>
                 </div>
@@ -41,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="card mb-4 shadow-sm" id="HoverTheCard">
+            <div class="card mb-4 shadow-sm HoverTheCard">
                 <div class="card-header bg-info text-white">
                     <h4 class="my-0 font-weight-normal">Functionality</h4>
                 </div>
@@ -56,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="card mb-4 shadow-sm" id="HoverTheCard">
+            <!--<div class="card mb-4 shadow-sm HoverTheCard">
                 <div class="card-header bg-info text-white">
                     <h4 class="my-0 font-weight-normal">Ideas</h4>
                 </div>
@@ -68,7 +71,7 @@
                         Ideas</a>
 
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 @endsection

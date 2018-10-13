@@ -18,7 +18,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 {!! Form::open(['url' => 'api/DatabaseFunctionalityAPI' , 'method' => 'get', 'class' => 'form-group form-inline' ]) !!}
                 <input class="form-control" name="SearchTextBox" type="text" placeholder="Search user Identity"
                        required>
@@ -26,7 +26,11 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
                 {!! Form::close() !!}
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4 text-center">
+                <p>This page has all the CRUD functions including searching the database function <strong>With
+                        APIs only</strong>.</p>
+            </div>
+            <div class="col-md-4">
                 <button type="button" class="btn btn-outline-success float-right" data-toggle="modal"
                         data-target="#AddDataModal">
                     Add more ideas

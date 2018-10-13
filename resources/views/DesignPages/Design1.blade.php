@@ -43,7 +43,7 @@
 @section('content')
     <div class="text-center bg-dark" id="firstDivision">
         <a href="" class="nav-link" id="PageTitle"> Site Name </a>
-        <p class="font-weight-light" style="color: #a1cbef"> Hello, this is the first design</p>
+        <p class="font-weight-light" style="color: #a1cbef"> This is the first design. Try to click on any card to show its details that is auto-generated using JavaScript. Also the button 'show more' can reveal more data.</p>
         <br/>
     </div>
 

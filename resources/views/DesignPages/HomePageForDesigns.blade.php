@@ -14,6 +14,7 @@
         .card {
             margin-top: 1vh;
             margin-bottom: 1vh;
+            max-width: 350px;
         }
     </style>
 @endsection
@@ -23,23 +24,21 @@
 
     <div class="jumbotron text-center" style="background-color: #B2EBF2">
         <h1 class="display-4">Designs Home Page</h1>
-        <p>Welcom to the page of my creative designs -At least I worked hard to make them-</p>
+        <p>This page includes designs from what bootstrap can provide, pdf/image files converted to web site and it can
+            be used as a reference. Also, it includes an approximated percentage of code language used and it is
+            responsive.</p>
     </div>
 
     <div class="container-fluid">
-
-        <div class="card-deck mb-4 text-center">
+        <div class="card-deck mb-4 text-center justify-content-center">
             <div class="card">
                 <div class="card-header" style="background-color: #673AB7">
                     <p class="text-white">Design 1 Influenced from Games</p>
                 </div>
                 <div class="card-body d-flex flex-column" STYLE="background-color: #7C4DFF">
                     <p class="text-light">This page includes: containers, breadcrumb, carousel, modal, footer, up
-                        link,
-                        cards, one modal with the details of the whichever item selected, organization of items
-                        based on
-                        the window width/capability manually, generating items using Javascript and generating items
-                        inside a generated item.</p>
+                        link, cards, one modal with the details of the whichever item selected, organization of items
+                        based on the window width manually, generating the items using Javascript.</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design1">1</a>
                 </div>
                 <div class="card-footer" style="background-color: #D1C4E9">
@@ -63,10 +62,8 @@
                     <p class="text-white">Design 2 Influenced from Shopping</p>
                 </div>
                 <div class="card-body d-flex flex-column" style="background-color: #FF4081">
-                    <p class="text-light align-self-start">This page includes: toggleable search box from icon,
-                        sticky
-                        navbar, icons, containers, ScrollSpy, footer, up link, auto generated ScrollSpy links,cards
-                        and
+                    <p class="text-light align-self-start">This page includes: toggleable search box from icon, sticky
+                        navbar, icons, containers, ScrollSpy, footer, up link, auto generated ScrollSpy links,cards and
                         toggleable cards` body.</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design2">2</a>
                 </div>
@@ -122,7 +119,7 @@
                 </div>
                 <div class="card-body d-flex flex-column" style="background-color: #00BCD4">
                     <p class="text-dark">This page includes: A full page design from image/pdf that has been
-                        dublicate/converted to CSS</p>
+                        dublicate/converted to HTML/CSS/JS</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design4">4</a>
                 </div>
                 <div class="card-footer" style="background-color: #B2EBF2">
@@ -150,7 +147,7 @@
                 </div>
                 <div class="card-body d-flex flex-column" style="background-color: #00BCD4">
                     <p class="text-dark">This page includes: A full page design from image/pdf that has been
-                        dublicate/converted to CSS</p>
+                        dublicate/converted to HTML/CSS/JS</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design5">5</a>
                 </div>
                 <div class="card-footer" style="background-color: #B2EBF2">
@@ -177,7 +174,7 @@
                 </div>
                 <div class="card-body d-flex flex-column" style="background-color: #00BCD4">
                     <p class="text-dark">This page includes: A full page design from image/pdf that has been
-                        dublicate/converted to CSS</p>
+                        dublicate/converted to HTML/CSS/JS</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design6">6</a>
                 </div>
                 <div class="card-footer" style="background-color: #B2EBF2">
@@ -205,7 +202,7 @@
                 </div>
                 <div class="card-body d-flex flex-column" style="background-color: #00BCD4">
                     <p class="text-dark">This page includes: A full page design from image/pdf that has been
-                        dublicate/converted to CSS</p>
+                        dublicate/converted to HTML/CSS/JS</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design7">7</a>
                 </div>
                 <div class="card-footer" style="background-color: #B2EBF2">
@@ -230,7 +227,7 @@
                 </div>
                 <div class="card-body d-flex flex-column" style="background-color: #00BCD4">
                     <p class="text-dark">This page includes: A full page design from image/pdf that has been
-                        dublicate/converted to CSS</p>
+                        dublicate/converted to HTML/CSS/JS</p>
                     <a role="button" class="btn btn-outline-light btn-lg btn-block mt-auto" href="/Design8">8</a>
                 </div>
                 <div class="card-footer" style="background-color: #B2EBF2">

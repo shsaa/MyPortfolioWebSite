@@ -20,6 +20,8 @@
             <h1 class="p-2">S.Hashem Abdulaziz Hussain</h1>
             <h3>An Entry-Level Web Developer</h3>
             <a href="mailto:silv.say.hash@gmail.com"><i class="fa fa-envelope"> Email: silv.say.hash@gmail.com</i></a>
+            <br/>
+            <a href=""><i class="fa fa-github"> GitHub: </i></a>
         </div>
         <div class="container p-3">
             <h2>About me</h2>
@@ -97,21 +99,20 @@
             <h2>My Portfolio</h2>
             <hr/>
             <div class="card-deck mb-3 text-center justify-content-center">
-                <div class="card mb-4 shadow-sm" id="HoverTheCard" style="max-width: 350px">
+                <div class="card mb-4 shadow-sm" style="max-width: 350px">
                     <div class="card-header bg-info text-white">
                         <h4 class="my-0 font-weight-normal">Designs</h4>
                     </div>
                     <div class="card-body d-flex flex-column">
                         <p>This page includes designs using CSS, HTML and JS mainly to convert pdf/images to actual web
-                            sites and focuses on providing as much as
-                            possible of items</p>
+                            sites and focuses on providing as much as possible of items</p>
 
                         <a class="btn btn-lg btn-block btn-outline-primary mt-auto" href="/HomePageForDesigns"
                            role="button">Enter designs</a>
                     </div>
                 </div>
 
-                <div class="card mb-4 shadow-sm" id="HoverTheCard" style="max-width: 350px">
+                <div class="card mb-4 shadow-sm" style="max-width: 350px">
                     <div class="card-header bg-info text-white">
                         <h4 class="my-0 font-weight-normal">Functionality</h4>
                     </div>

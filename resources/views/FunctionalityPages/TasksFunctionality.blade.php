@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <p>provides functionality to upload a picture and convert it to text. Then read it as a text.</p>
+                <p>provides functionality to upload a picture and convert it to text. Then manipulate it as a text.</p>
             </div>
         </div>
 
@@ -141,7 +141,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <p>Using Ajax with php to update the page partially without reloading</p>
+                <p>Using Ajax with php to update the page partially without reloading.</p>
             </div>
         </div>
 

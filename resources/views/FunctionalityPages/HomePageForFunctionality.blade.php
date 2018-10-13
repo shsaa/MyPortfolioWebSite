@@ -21,9 +21,8 @@
 
     <div class="jumbotron text-center" style="background: #6cb2eb">
         <h1 class="display-4">Functionality Home Page</h1>
-        <p class="lead">Any specific ability that I want to learn it will be here</p>
+        <p class="lead">Any specific ability that I want to learn it will be here.</p>
     </div>
-
 
     <div class="container">
         <div class="card-deck mb-3 text-center">
@@ -32,13 +31,12 @@
                     <h4 class="my-0 font-weight-normal">Login</h4>
                 </div>
                 <div class="card-body d-flex flex-column"  style="background-color: #C8E6C9">
-                    <p class="text-left">This page includes Different type of login and the abilities present using it.</p>
+                    <p class="text-left">This page includes Different types of login.</p>
                     <h3 class="text-left">It includes:</h3>
                     <ul class="list-group text-left">
                         <li class="list-group-item font-italic"  style="background-color: #DCEDC8">Social Login -facebook and twitter</li>
                         <li class="list-group-item font-italic"  style="background-color: #DCEDC8">Authentication - native laravel</li>
                         <li class="list-group-item font-italic"  style="background-color: #DCEDC8">Authorization - Gates/</li>
-                        <li class="list-group-item font-italic"  style="background-color: #DCEDC8">Security</li>
                     </ul>
                     <br/>
                     <a class="btn btn-lg btn-block btn-outline-success mt-auto" href="/LoginFunctionality"
@@ -54,8 +52,8 @@
                     <p class="text-left">This page includes manipulation of the database and it`s functions.</p>
                     <h3 class="text-left">It includes:</h3>
                     <ul class="list-group text-left">
-                        <li class="list-group-item font-italic"  style="background-color: #FFCDD2">View/Filter</li>
-                        <li class="list-group-item font-italic"  style="background-color: #FFCDD2">Add/Remove</li>
+                        <li class="list-group-item font-italic"  style="background-color: #FFCDD2">View and Filter -server side</li>
+                        <li class="list-group-item font-italic"  style="background-color: #FFCDD2">Add/Delete</li>
                         <li class="list-group-item font-italic"  style="background-color: #FFCDD2">Update</li>
                         <li class="list-group-item font-italic"  style="background-color: #FFCDD2">RESTful API</li>
                         <li class="list-group-item font-italic"  style="background-color: #FFCDD2">Validations</li>
@@ -70,14 +68,14 @@
                     <h4 class="my-0 font-weight-normal">Tasks</h4>
                 </div>
                 <div class="card-body d-flex flex-column"  style="background-color: #BBDEFB">
-                    <p class="text-left">This page includes single seperated Tasks with their Manipulations.</p>
+                    <p class="text-left">This page includes single separated skills with their Manipulations.</p>
                     <h3 class="text-left">It includes:</h3>
                     <ul class="list-group text-left">
-                        <li class="list-group-item font-italic"  style="background-color: #B3E5FC">Upload A picture</li>
-                        <li class="list-group-item font-italic"  style="background-color: #B3E5FC">Filter results -not datatable</li>
+                        <li class="list-group-item font-italic"  style="background-color: #B3E5FC">Upload A picture/file</li>
+                        <li class="list-group-item font-italic"  style="background-color: #B3E5FC">Filter results -client side</li>
                         <li class="list-group-item font-italic"  style="background-color: #B3E5FC">JSON weather</li>
                         <li class="list-group-item font-italic"  style="background-color: #B3E5FC">AJAX request</li>
-                        <li class="list-group-item font-italic"  style="background-color: #B3E5FC">Graph -done</li>
+                        <!--<li class="list-group-item font-italic"  style="background-color: #B3E5FC">Graph -done</li>-->
                     </ul>
                     <br/>
                     <a class="btn btn-lg btn-block btn-outline-primary mt-auto" href="/TasksFunctionality"
