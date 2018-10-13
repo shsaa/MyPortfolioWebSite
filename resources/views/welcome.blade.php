@@ -21,7 +21,7 @@
             <h3>An Entry-Level Web Developer</h3>
             <a href="mailto:silv.say.hash@gmail.com"><i class="fa fa-envelope"> Email: silv.say.hash@gmail.com</i></a>
             <br/>
-            <a href=""><i class="fa fa-github"> GitHub: </i></a>
+            <a href="https://github.com/shsaa/MyPortfolioWebSite"><i class="fa fa-github"> GitHub: https://github.com/shsaa/MyPortfolioWebSite</i></a>
         </div>
         <div class="container p-3">
             <h2>About me</h2>
