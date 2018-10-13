@@ -129,7 +129,6 @@ class IdeasToImplementController extends Controller
             ], 404);
         }
     }
-/* here a commer */
     public function DeleteIdeaAPI($id)
     {
         $DeleteIdea = IdeasToImplement::findOrFail($id);
